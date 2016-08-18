@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Title here -->
+		<title>Profile</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+
+
+		<!-- Styles -->
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Animate CSS -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+   		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+		<script>
+
+		function actionKaKao(){
+		    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+		    Kakao.init('414555b1241232d845d08ab0c8f93cf6');
+
+		    // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+		    Kakao.Link.createTalkLinkButton({
+		      container: '#kakao-link-btn',
+		      label: '강영길 Profile',
+		      image: {
+		        src: 'https://github.com/code-bross/code-bross.github.com/blob/master/img/ic_profile.png?raw=true',
+		        width: '200',
+		        height: '200'
+		      },
+		      webButton: {
+		        text: '강영길 Profile',
+		        url: 'http://code-bross.github.io' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+		      }
+		    });
+		}
+
+
+		</script>
+	</head>
+
+	<body>
+
+		<div class="outer">
+
+			<!-- Sidebar Start-->
+			<!-- Menu for tablets and mobile -->
+			<div class="navigation">
+				<a href="#">Menu</a>
+			</div>
+			<div class="sidebar">
+				<!-- Logo of company -->
+				<div class="logo text-center">
+					<h1><a href="#">PROFILE</a></h1>
+				</div>
+				<div class="sidebar-search">
+					<!-- <form>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Text to search">
+							<span class="input-group-btn">
+								<button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+							</span>
+						</div>
+					</form> -->
+				</div>
+				<!-- Navigation menu list -->
+				<ul class="list-unstyled list">
+					<li><a href="#" class="anchorLink">
+					<img src="./img/ic_home.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					<!-- <i class="icon-home scolor"></i> -->
+					 Home</a></li>
+					<li><a href="#.career" class="anchorLink">
+					<!-- <i class="icon-user scolor"></i> -->
+					<img src="./img/ic_career.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 경력사항</a></li>
+					<li><a href="#.license" class="anchorLink">
+					<!-- <i class="icon-retweet scolor"></i> -->
+					<img src="./img/ic_license.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 자격증 </a></li>
+					<li><a href="#.feature" class="anchorLink">
+					<!-- <i class="icon-road scolor"></i> -->
+					<img src="./img/ic_award.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 수상내역</a></li>
+					<li><a href="#.patent" class="anchorLink">
+					<img src="./img/ic_patent.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					<!-- <i class="icon-info scolor"></i> -->
+					 특허출원</a></li>
+					<li><a href="#.volunteer" class="anchorLink">
+					<!-- <i class="icon-info scolor"></i> -->
+					<img src="./img/ic_volunteer.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 봉사활동</a></li>
+					<li><a href="#.company_career" class="anchorLink">
+					<!-- <i class="icon-info scolor"></i> -->
+					<img src="./img/ic_company.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 사내활동</a></li>
+					 <li><a href="#.university" class="anchorLink">
+					<!-- <i class="icon-info scolor"></i> -->
+					<img src="./img/ic_university.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 교내활동</a></li>
+
+					 <li><a href="#.curriculum" class="anchorLink">
+					<!-- <i class="icon-info scolor"></i> -->
+					<img src="./img/ic_curriculum.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					 커리큘럼</a></li>
+
+
+					<!-- <li><a href="#.ptable" class="anchorLink"><i class="icon-gift scolor"></i> Price Table</a></li> -->
+
+					<li><a href="#.contact" class="anchorLink">
+					<img src="./img/ic_phone.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					연락처</a></li>
+
+					<li><a href="#.about_me" class="anchorLink">
+					<img src="./img/ic_about_me.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+					About Me</a></li>
+					<!-- <li class="dropdown">
+							<a data-toggle="dropdown" href="#"><i class="icon-plus-sign scolor"></i> Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" >
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+					</li> -->
+				</ul>
+				
+			</div>
+
+			<!-- Sidebar End -->
+
+			<!-- Main Start -->
+
+			<div class="main">
+
+				<div class="feature-item animated">
+					<div id="carousel-example-generic" class="carousel slide carousel-fade">
+							<div class="item active" style="height:500px;">
+								<!-- Carousel background images -->
+								<!-- <img src="img/3.jpg" class="img-responsive" alt="" /> -->
+								<div class="carousel-caption">
+									<div class="col-md-6" >
+											<div class="profile">
+											
+											</div>
+										</div>
+
+									<div class="caption-content">
+										<h3>Profile</h3>
+											<p>
+												성명 : 강영길 <br>
+												학력 : 금오공과대학교 <br>
+												학년 : 4년제 (졸업예정) <br>
+												전공 : 컴퓨터소프트웨어공학과 <br>
+												<script>
+												   var now = new Date();
+												   var then = new Date('august 23,2018');
+												   var gap = now.getTime() - then.getTime();
+												   gap = Math.floor(gap / (1000 * 60 * 60 * 24));
+												   document.write("복무 완료 까지 : D "+ ""+gap);
+												</script>  
+												<br>
+												<script>
+												   var now = new Date();
+												   var then = new Date('october 23,2015');
+												   var gap = now.getTime() - then.getTime();
+												   gap = Math.floor(gap / (1000 * 60 * 60 * 24));
+												   if(gap>0)
+												   	gap = '+'+gap;
+												   document.write("복무일       : D "+gap);
+												</script>  
+
+											</p>
+										</div>
+								</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Wrapper for slides End -->
+
+
+
+				<div class="container">
+
+					
+
+					<!-- Start career profile -->
+					<div class="career">
+
+						<div class="feature-item animated">
+							<h3>경 력 사 항</h3>
+							<div class="bor hidden-xs"></div>
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<!-- Team member's profile  -->
+									<div class="thumbnail career-profile">
+										<img src="img/logo_android.png" alt="" class="img-responsive img-circle" />
+										<!-- Member's name and designation -->
+										<h5>Android</h5>
+										<script>
+												   var now = new Date();
+												   var then = new Date('july 23,2015');
+												   var gap = now.getTime() - then.getTime();
+												   gap = Math.floor(gap / (1000 * 60 * 60 * 24 *30));
+												   gap++;
+												   document.write("<sapn> 경력 "+gap +"개월</span>");
+										</script> 
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="thumbnail career-profile">
+										<img src="img/logo_java.png" alt="" class="img-responsive img-circle" />
+										<h5>Java</h5>
+										<script>
+												   var now = new Date();
+												   var then = new Date('july 23,2015');
+												   var gap = now.getTime() - then.getTime();
+												   gap = Math.floor(gap / (1000 * 60 * 60 * 24 *30));
+												   gap++;
+												   document.write("<sapn> 경력 "+gap +"개월</span>");
+												   
+										</script> 
+
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="thumbnail career-profile">
+										<img src="img/logo_c++.png" alt="" class="img-responsive img-circle" />
+										<h5>C++</h5>
+										<span>~</span>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="thumbnail career-profile">
+										<img src="img/logo_apache_tomcat.png" alt="" class="img-responsive img-circle"/>
+										<h5>JSP</h5>
+										<span>~</span>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6">
+										<div class="thumbnail career-profile">
+											<img src="img/logo_csharp.png" alt="" class="img-responsive img-circle" />
+											<h5>C #</h5>
+											<script>
+												   var now = new Date();
+												   var then = new Date('october 23,2015');
+												   var gap = now.getTime() - then.getTime();
+												   gap = Math.floor(gap / (1000 * 60 * 60 * 24 *30));
+												   document.write("<sapn> 경력 "+gap +"개월</span>");
+										</script> 
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="thumbnail career-profile">
+											<img src="img/logo_hybrid.png" alt="" class="img-responsive img-circle" />
+											<h5>Hybrid App</h5>
+											<span> - </span>
+										</div>
+									</div>
+
+
+									<div class="col-md-3 col-sm-6">
+										<div class="thumbnail career-profile">
+											<img src="img/logo_visual_studio.png" alt="" class="img-responsive img-circle" />
+											<h5>MFC</h5>
+											<span> - <br></span>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="thumbnail career-profile">
+											<img src="img/logo_ios.png" alt="" class="img-responsive img-circle" />
+											<h5>iOS </h5>
+											<span> - </span>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="thumbnail career-profile">
+											<img src="img/logo_mysql.png" alt="" class="img-responsive img-circle" />
+											<h5>MySQL</h5>
+											<span> - </span>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<hr />
+
+					<!-- career profile End -->
+
+					<!-- license start -->
+					<div class="license">
+						<h3>자 격 증</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<!-- license item -->
+								<div class="license-item animated">
+								<img src="./img/logo_engineer_information_processing.png"><br>
+									<h4><a href="#">정보처리 기사</a></h4><br>
+									취득일 : 2015.05.08
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="license-item animated">
+									<!-- <i class="icon-envelope nblue"></i> -->
+								<img src="./img/logo_industrial_engineer_information_processing.png"><br>
+									<h4><a href="#">정보처리 산업기사</a></h4><br>
+									취득일 : 2014.05.30
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="license-item animated">
+								<img src="./img/logo_craftsman_information_processing.jpeg"><br>
+									<!-- <i class="icon-download blue"></i> -->
+									<h4><a href="#">정보처리 기능사</a></h4><br>
+									취득일 : 2009.09.24
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="license-item animated">
+								<img src="./img/logo_driving_license.png"><br>
+									<!-- <i class="icon-gamepad green"></i> -->
+									<h4><a href="#">운전면허증</a></h4><br>
+									1종 보통 <br> 취득일 : 2012.04.20
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr />
+					<!-- license End -->
+
+					<!-- Features Start -->
+
+					<div class="feature">
+						<h3>수 상 내 역</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<!-- Feature item -->
+								<div class="feature-item animated">
+								<a href="javascript:window.open('./img/award/산업융합비즈니스모델논문공모전_IT서비스학회장상.jpg');window.open('http://knicc.re.kr/board/read.php?db=knicc_soseek&amp;n=124&amp;p=1&amp;l=55');">
+								<!-- <a target="_blank" href="http://knicc.re.kr/board/read.php?db=knicc_soseek&amp;n=124&amp;p=1&amp;l=55"> -->
+									<img src="./img/logo_journal.png">
+									<h4>산업융합 비즈니스 모델 논문 공모전</h4>
+									한국 IT서비스 학회장상<br>
+										수상일 : 2015.05.13<br>
+										발급처 : 한국 IT 서비스 학회
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a href="javascript:window.open('./img/award/대학창의발명대회_장려상.JPG');window.open('http://www.mt.co.kr/view/mtview.php?type=1&amp;no=2015111123397484968&amp;outlink=1');">
+									<img src="./img/logo_invent_korea.png">
+									<h4>대학 창의 발명 대회</h4>
+									장려상 <br>
+										수상일 : 2015.11.10 <br>
+										발급처 : 한국발명진흥회<br><br><br>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a target="_blank" href="./img/award/대한민국창의발명대전.png">
+									<img src="./img/logo_kinews.png">
+									<h4>대한민국 창의 발명 대전</h4>
+									은상 <br>
+									수상일 : 2015.08.11 <br>
+									발급처 : 한국발명신문
+								</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a target="_blank" href="./img/award/창업발명 아이디어 경진대회_은상.jpg">
+									<img src="./img/logo_kit.png">
+									<h4>창업 발명아이디어 경진대회</h4>
+									은상<br>
+									수상일 : 2015.04.16<br>
+									발급처 : 금오공과대학교 LINC사업단
+								</a>
+								</div>
+							</div>
+
+							</div>
+
+							<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a target="_blank" href="./img/award/일반형 캡스톤_동상.jpeg">
+									<img src="./img/logo_kit.png">
+									<h4>Kit Engineering Fair</h4>
+									동상<br>
+									수상일 : 2015.11.27<br>
+									발급처 : 금오공과대학교 공학교육혁신센터
+								</a>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a target="_blank" href="./img/award/사업계획서_장려상.png">
+									<img src="./img/logo_kit.png">
+									<h4>사업계획서 경진대회</h4>
+									동상<br>
+									수상일 : 2015.05.28<br>
+									발급처 : 금오공과대학교 LINC사업단
+								</a>
+								</div>
+							</div>
+
+							
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a href="javascript:window.open('./img/award/에너지_해커톤_우수상.jpg');window.open('http://www.viva100.com/main/view.php?key=20160328010008545');">
+								<!-- <a target="_blank" href="http://www.viva100.com/main/view.php?key=20160328010008545"> -->
+									<img src="./img/ENCOREDhackathon_logo.png">
+									<h4>에너지 해커톤</h4>
+									우수상<br>
+									수상일 : 2016.03.26<br>
+									발급처 : 주식회사 인코어드테크놀로지스
+
+								</a>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+								<a href="javascript:window.open('./img/award/예술해커톤_우수상.jpg'); window.open('http://nollywood.newsis.com/article/view.htm?ar_id=NISX20160718_0014227612&amp;cID=10701&amp;pID=10700');">
+								<!-- <a target="_blank" href="http://www.viva100.com/main/view.php?key=20160328010008545"> -->
+									<img src="./img/ArtHackathon_logo.png">
+									<h4>예술 해커톤</h4>
+									우수상<br>
+									수상일 : 2016.07.17<br>
+									발급처 : 재단법인 예술경영지원센터
+								</a>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+					<hr />
+
+					<!-- Features End -->
+
+					<!-- 특허출원 Start -->
+					<div class="patent">
+						<h3>특 허 출 원</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<!-- Feature item -->
+								<div class="feature-item animated">
+									<img src="./img/logo_patent.png">
+									<!-- <i class="icon-gears"></i> -->
+									<!-- Feature item heading and description -->
+									<h4>애플리케이션 기반 창업 지원방법 및 시스템</h4>
+									출원중<br>
+										출원일자 : 2014.11.28
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+									<!-- <i class="icon-refresh"></i> -->
+									<img src="./img/logo_patent.png">
+									<h4>창업 관련 정보를 제공하기 위한 장치, 이를 위한 방법 및 이 방법이 기록된 컴퓨터 판독 가능한 기록매체</h4>
+									출원중 <br>
+										출원일자 : 2015.08.21
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<hr />
+
+					<!-- 특허출원 End -->
+
+					<!-- 봉사활동 Start -->
+					<div class="volunteer">
+						<h3>봉 사 활 동</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<!-- Feature item -->
+								<div class="feature-item animated">
+								<a target="_blank" href="./img/volunteer/우즈베키스탄_키위_강영길(파견확인증명서).png">
+									<img src="./img/logo_world_freiends.gif">
+									<!-- <i class="icon-gears"></i> -->
+									<!-- Feature item heading and description -->
+									<h4>월드프렌즈IT봉사단</h4>
+									파견국가 : 우즈베키스탄 <br>
+									파견기간 : 2014.07.31 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~  2014.08.30
+								</a>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<hr />
+
+					<!-- 봉사활동 End -->
+
+					<!-- company_career Start -->
+
+					<div class="company_career">
+						<h3>사 내 활 동</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="feature-item animated">
+									<div class="company_career-content">
+										<h4>3D 저작도구</h4>
+										<p>2015.07~2015.10</p>
+										<!-- Item cost -->
+										<span class="pcost">Web 기반</span>
+										<!-- Item features list -->
+										<ul class="list">
+											<li>KT 연구과제</li>
+											<li>기여도 20%</li>
+											<li>합성 품질 향상, 합성 좌표 계산 </li>
+										</ul>
+										<!-- Buy now button -->
+										<a target="_blank" href="http://www.ktwiz.co.kr/sports/site/baseball/magazine/article_view.do?iIDX=90884&amp;iBl=1&amp;iPg=1" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+
+								<div class="feature-item animated">
+									<div class="company_career-content">
+										<h4>FedEx Sender</h4>
+										<p>2015.11</p>
+										<span class="pcost">C# Client</span>
+										<ul class="list">
+											<li>사내 프로젝트</li>
+											<li>기여도 40%</li>
+											<li>기존 Client 기능추가</li>
+										</ul>
+										<a href="#" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-3">
+								<div class="feature-item animated">
+									<div class="phighlight company_career-content">
+										<h4>번역톡</h4>
+										<p>2015.11~2016.02</p>
+										<span class="pcost">Android App</span>
+										<ul class="list">
+											<li>사내 프로젝트</li>
+											<li>기여도 100%</li>
+											<li>번역기능, 사내 연동, 메신저연동</li>
+										</ul>
+										<a target="_blank" href="https://play.google.com/store/apps/details?id=surem.com.translate" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature-item animated">
+									<div class="company_career-content">
+										<h4>SlackPushAgent</h4>
+										<p>2016.02</p>
+										<span class="pcost">Java Swing</span>
+										<ul class="list">
+											<li>사내 프로젝트</li>
+											<li>기여도 100%</li>
+											<li>사내 장애 알람 슬랙연동</li>
+										</ul>
+										<a href="#" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<div class="feature-item animated">
+									<div class="company_career-content">
+										<h4>언어 판독 API</h4>
+										<p>2016.03</p>
+										<span class="pcost">Java 기반</span>
+										<ul class="list">
+											<li>사내 프로젝트</li>
+											<li>기여도 100%</li>
+											<li>언어 판독</li>
+										</ul>
+										<a target="_blank" href="http://121.125.67.164:5000/?param=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="feature-item animated">
+									<div class="company_career-content">
+										<h4>QR CODE or BAR CODE MMS Send Client</h4>
+										<p>2016.05</p>
+										<span class="pcost">Java Swing</span>
+										<ul class="list">
+											<li>사내 프로젝트</li>
+											<li>기여도 100%</li>
+											<li>BAR CODE 또는 QR CODE를 합성하여 MMS 전송</li>
+										</ul>
+										<a href="#" class="btn btn-info">결과물</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr />
+					<!-- Price Table End -->
+
+					<!-- 교내활동 Start -->
+
+					<div class="university">
+						<h3>교 내 활 동</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<!-- Feature item -->
+								<div class="feature-item animated">
+									<img src="./img/logo_rootkit.jpg">
+									<!-- <i class="icon-gears"></i> -->
+									<!-- Feature item heading and description -->
+									<h4>동아리 활동</h4>
+									[학술동아리] 셈틀꾼 가입 <br>
+									가입일자 : 2011.3
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+									<!-- <i class="icon-refresh"></i> -->
+									<img src="./img/logo_semtle.png">
+									<h4>동아리 활동</h4>
+									[학술동아리] Rootkit 가입<br>
+									가입일자 : 2013.09<br><br>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+									<!-- <i class="icon-refresh"></i> -->
+									<img src="./img/logo_capstone.png">
+									<h4>융합형 Capstone</h4>
+									 Kinect를 이용한 직업 체험 프로그램<br>
+									2014.04 ~ 2014.11
+								</div>
+							</div>
+
+							<div class="col-md-3 col-xs-6">
+								<div class="feature-item animated">
+									<!-- <i class="icon-refresh"></i> -->
+									<img src="./img/logo_capstone.png">
+									<h4>일반형 Capstone</h4>
+									 모바일 기반 창업지원 시스템<br>
+									2015.04 ~ 2015.11
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<hr />
+					<!-- 교내활동 End -->
+
+
+					<!-- 커리큘럼 Start -->
+					<div class="curriculum">
+
+						<div class="feature-item animated">
+						<h3>커 리 큘 럼</h3>
+						<div class="bor hidden-xs"></div>
+									<img src="./img/curriculum.png" style="width:100%">
+						</div>
+					</div>
+					<hr />
+
+					<!-- 커리큘럼 end -->
+
+					
+
+					<!-- Contact Start -->
+
+					<div class="contact">
+						<h3>연 락 처</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="feature-item animated">
+									<div class="thumbnail contact-profile">
+										<a href="mailto:rkd2468@gmail.com">
+										<img src="img/ic_gmail.png" alt="" class="img-responsive img-circle" />
+										<h4>Email</h4>
+										<span>rkd2468@gmail.com</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+
+								<div class="feature-item animated">
+									<div class="thumbnail contact-profile" >
+									<a href="tel:010 8421 0101">
+										<img src="img/ic_call.png" alt="" class="img-responsive img-circle" />
+										<h4>Call</h4>
+										<span>Tel : 010-8421-0101</span>
+									</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="feature-item animated">
+								<div class="thumbnail contact-profile">
+									<a href="sms:010 8421 0101">
+										<img src="img/ic_sms.png" alt="" class="img-responsive img-circle" />
+										<h4>Message</h4>
+										<span>SMS : 010-8421-0101</span>
+									</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="feature-item animated">
+								<div class="thumbnail contact-profile">
+   								 <a id="kakao-link-btn" href="javascript:actionKaKao();">
+									<img src="img/ic_kakao.png" alt="" class="img-responsive img-circle"/>
+									<h4>KaKaoTalk Link 공유</h4>
+									<span>ID : laststory</span>
+								</a>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr />
+
+					<!-- Contact End -->
+
+					<!-- about_me Start -->
+					
+					<div class="about_me">
+						<h3>About Me</h3>
+						<div class="bor hidden-xs"></div>
+						<div class="row">
+							<div class="col-md-4">
+								<!-- testimonial content -->
+								<div class="testimonial-content animated">
+									<!-- User's image , name and designation -->
+									<h4><img src="img/ic_sakun_3.jpg" alt="" class="img-responsive img-circle"/>&nbsp;&nbsp;&nbsp;&nbsp;Passion<span>, 열정</span></h4>
+									<!-- User's comment -->
+									<blockquote>
+										<p>
+											월드 프렌즈 IT 봉사단[우즈베키스탄 파견], 산업융합 비즈니스 모델 논문 공모전 수상 <br>
+											타국에 한달 동안 파견되어, 익숙하지 않은 문화에서 녹록치 않은 환경임에도 열정을 가지고 프로그래밍을 가르쳤으며, 익숙하지 않은 논문 분야도 비즈니스 모델 논문 공모전에 열정을 가지고 임한 끝에 좋은 결과를 얻은 것이라 생각합니다. 
+										</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial-content animated">
+									<h4><img src="img/ic_sakun.png" alt="" class="img-responsive img-circle"/>Challenge<span>, 도전</span></h4>
+									<blockquote>
+										<p>
+											제 3회 정주영 창업 경진대회 해커톤 (대구) 참가, K-해커톤(영남권) 참가, 제 1회 대한민국 SW융합 해카톤 대회 참가, 공개 SW 개발자 대회 (참가), 에너지 해커톤 (우수상), 예술 해커톤 ( 우수상) <br>
+											저의 실력을 테스트하고 팀단위로 대회를 즐겨보고 싶어 여러 개발대회에 참여했으며, 기회가 된다면 지속적으로 참가하고 싶고, 개발대회에서 성장하는 제 모습이 좋습니다.
+										</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial-content animated">
+									<h4><img src="img/ic_sakun_2.jpg" alt="" class="img-responsive img-circle"/>Creativity<span>, 창의성</span></h4>
+									<blockquote>
+										<p>
+										대한민국 창의 발명대전 15' 수상,
+										대학 창의 발명대회 15' 수상,
+										창의 발명 아이디어 경진대회 15' 수상,
+										애플리케이션 기반 창업지원 방법 및 시스템 특허 출원중,
+										창업 관련 정보를 제공하기 위한 장치, 이를 위한 방법 및 이 방법이 기록된 컴퓨터 판독 가능한 기록매체 특허 출원중. <br>
+										여러 대회를 겪으며 창의성을 키울 수 있도록 노력하였습니다.
+										</p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr />
+
+					<!-- about_me End -->
+
+
+					<!-- Footer -->
+				<footer>
+					<div class="row">
+						<div class="col-md-12">
+							<hr />
+							<br />
+							<!-- You should not remove the footer link back. -->
+							<p class="text-center">Copyright 2016 - <a href="http://code-bross.xyz/profile">WebSite</a> - Designed by <a href="http://code-bross.xyz">Bross</a></p>
+							<br />
+						</div>
+					</div>
+				</footer>
+
+				</div>
+
+
+
+			</div>	<!-- This end div for main class -->
+		</div>
+
+		<div class="clearfix"></div>
+
+
+		<!-- Scroll to top -->
+      <span class="totop"><a href="#"><i class="icon-chevron-up"></i></a></span>
+
+
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- jquery Anchor JS -->
+		<script src="js/jquery.arbitrary-anchor.js"></script>
+		<!-- jQuery way points -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+
+		<script src="js/popup.js"></script>
+	</body>
+</html>
