@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Title here -->
+		<title>KaKaolink sample</title>
+		 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+   		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+		<script>
+		function actionKaKao(){
+		    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+		    Kakao.init('414555b1241232d845d08ab0c8f93cf6');
+		    // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+		    Kakao.Link.createTalkLinkButton({
+		      container: '#kakao-link-btn',
+		      label: '강영길 Profile',
+		      image: {
+		        src: 'https://github.com/code-bross/code-bross.github.com/blob/master/img/ic_profile.png?raw=true',
+		        width: '200',
+		        height: '200'
+		      },
+		      webButton: {
+		        text: '강영길 Profile',
+		        url: 'http://code-bross.github.io' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+		      }
+		    });
+		}
+		</script>
+	</head>
+
+		<a href="javascript:actionKaKao();">KAKAO LINK </a>
+
+	<body>
+	</body>
+</html>
