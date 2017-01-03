@@ -26,9 +26,11 @@
 <script type='text/javascript'>
 		// location.href='http://advert.estsoft.com/?event=201612151449300'
 		function event_click(){
-			location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"
+			window.location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"
 		}
-		location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"
+		window.onload = function(){
+			window.location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"	
+		}
 </script><!-- 
 <a href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;">
   alyac_deeplink://kakao</a> -->
