@@ -6,17 +6,22 @@
 <br> 용량확보와~~~~ (중략)">
 <meta property="og:image" content="./img/image_kakao_clean.jpg">
 <style type="text/css">
+
 	.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width:80%;
-    height:10%;
-    margin: 2.5% 10%;
-    font-size:150%;
+	   display:inline-block;
+	   position:absolute;
+	   bottom:10px;
+	   left:50%;
+	   width:80%;
+	   height:10%;
+	   border:0;
+	   background-color:#4CAF50;
+	   margin-left:-40%;
+	   margin-bottom: 5%;
+	   font-size:200%;
+	   color:#fff;
+	   text-decoration:none;
+	   text-align:center   
 	}
 	.img{
 		width:100%;
@@ -49,7 +54,9 @@
 		}
 </script>
   	<body>
-		<img src="./img/img_kakao_clean_original.jpg" class="img">
-		<button id="btn" class="button" type="button" onclick="event_click();">카카오톡 파일 정리하러 가기</button>
+  		<div>
+			<img src="./img/img_kakao_clean_original.jpg" class="img">
+			<button id="btn" class="button" type="button" onclick="event_click();">카카오톡 파일 정리하러 가기</button>
+		</div>
 	</body>
 </html>
