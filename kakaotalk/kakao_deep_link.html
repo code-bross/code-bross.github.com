@@ -36,14 +36,14 @@
 		window.onload = function(){
 			userLang = navigator.language || navigator.userLanguage;
 			document.getElementById("btn").innerHTML = userLang;
-			if(userLang == "ko"){
-				// document.getElementById("btn").innerHTML="";
+			if(userLang.includes("ko")){
+				document.getElementById("btn").innerHTML="카카오톡 파일 정리하러 가기";
 			}	
-			else if(userLang == "ja"){
-				// document.getElementById("btn").innerHTML="";	
+			else if(userLang.includes("ja")){
+				document.getElementById("btn").innerHTML="カカオトークファイルの整理";
 			}
 			else{
-				// document.getElementById("btn").innerHTML="";
+				document.getElementById("btn").innerHTML="KakaoTalk file cleanup";	
 			}
 			event_click();
 		}
