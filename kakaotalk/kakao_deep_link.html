@@ -1,6 +1,9 @@
 <html>
 <head>
 </head>
+<meta name="robots" content="noindex,nofollow">
+<META http-equiv="Page-Enter" content="RevealTrans(Duration=10, Transition=50)"> 
+<META http-equiv="Page-Exit" content="RevealTrans(Duration=10, Transition=50)"> 
 <meta property="og:title" content="알약 안드로이드 - 카카오톡 파일정리">
 <meta property="og:description" content="파일 정리로 용량을 확보하세요!">
 <meta property="og:image" content="./img/image_kakao_clean.jpg">
@@ -30,11 +33,16 @@
 	}
 </style>
 <script type='text/javascript'>
-		function event_click(){
+		function click_event(){
 			if( /Android/i.test(navigator.userAgent)) {
-				window.location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"	
-			} else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+				window.location.href="intent://kakao#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"
+			} else {
 				window.location.href="http://play.google.com/store/apps/details?id=com.estsoft.alyac"	
+			}
+		}
+		function kakao_clean_recommend(){
+			if( /Android/i.test(navigator.userAgent)) {
+				window.location.href="intent://kakao_recommend#Intent;scheme=alyac_deeplink;package=com.estsoft.alyac;end;"
 			} else {
 				window.location.href="http://play.google.com/store/apps/details?id=com.estsoft.alyac"	
 			}
@@ -51,13 +59,13 @@
 			else{
 				document.getElementById("btn").innerHTML="KakaoTalk file cleanup";	
 			}
-			event_click();
+			kakao_clean_recommend();
 		}
 </script>
   	<body>
   		<div>
 			<img src="./img/img_kakao_clean_original.jpg" class="img">
-			<button id="btn" class="button" type="button" onclick="event_click();">카카오톡 파일 정리하러 가기</button>
+			<button id="btn" class="button" type="button" onclick="click_event();">카카오톡 파일 정리하러 가기</button>
 		</div>
 	</body>
 </html>
