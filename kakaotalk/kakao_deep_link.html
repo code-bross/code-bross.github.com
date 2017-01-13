@@ -50,7 +50,7 @@
 				window.location.href="http://play.google.com/store/apps/details?id=com.estsoft.alyac"	
 			}
 		}
-		function onLoadFunction(){
+		function on_load_function(){
 			userLang = navigator.language || navigator.userLanguage;
 			document.getElementById("btn").innerHTML = userLang;
 			if(userLang.includes("ko")){
@@ -65,6 +65,6 @@
 			kakao_clean_recommend();
 		}
 </script>
-  	<body onload="onLoadFunction()">
+  	<body onload="kakao_clean_recommend()">
 	</body>
 </html>
