@@ -1,0 +1,28 @@
+@charset "utf-8";
+html,body{overflow:hidden}
+html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,caption,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
+ul,li{list-style:none}
+
+i{font-style:normal}
+.header{position:relative;height:313px;text-align:center;letter-spacing:-2px;max-width:360px;margin:0 auto}
+.header h1{font-weight:normal;font-size:21px;padding-top:47px}
+.header h1 strong{display:block;font-size:31px;padding-top:5px}
+.header img{position:absolute;bottom:0;left:0;right:0;max-width:360px;margin:0 auto}
+.content{line-height:25px;color:#222;background:#fff;letter-spacing:-1px;box-sizing:border-box;max-width:360px;margin:0 auto;padding:23px}
+.content strong{font-weight:normal}
+@media (max-width:320px){
+    .header,.header img{max-width:320px}
+}
+/* color set */
+.color_1 .wrap{background:#FFE344}
+.color_1 .header h1{color:#370908}
+.color_1 .content strong{color:#a1c801}
+.color_2 .wrap{background:#89D769}
+.color_2 .header h1{color:#376822}
+.color_2 .header h1 strong,.color_3 .header h1 strong,.color_4 .header h1 strong{color:#fff}
+.color_2 .content li i{color:#a1c801;font-weight:bold}
+.color_2 .content strong{color:#a1c801}
+.color_3 .wrap{background:#FF6161}
+.color_3 .header h1{color:#4d1f1f}
+.color_3 .header h1 .icon{display:inline-block;width:21px;height:18px;background:url("../images/blt_alert.png") no-repeat;background-size:21px 18px;margin-right:3px}
+.color_3 .content strong{color:#d61c1c}
