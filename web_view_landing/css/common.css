@@ -13,6 +13,10 @@ i{font-style:normal}
 @media (max-width:320px){
     .header,.header img{max-width:320px}
 }
+@media (min-width:400px){
+	.header{height:337px}
+    .header,.header img,.content{max-width:400px}
+}
 /* color set */
 .color_1 .wrap{background:#FFE344}
 .color_1 .header h1{color:#370908}
@@ -24,5 +28,5 @@ i{font-style:normal}
 .color_2 .content strong{color:#a1c801}
 .color_3 .wrap{background:#FF6161}
 .color_3 .header h1{color:#4d1f1f}
-.color_3 .header h1 .icon{display:inline-block;width:21px;height:18px;background:url("../images/blt_alert.png") no-repeat;background-size:21px 18px;margin-right:3px}
+.color_3 .header h1 .icon{display:inline-block;width:21px;height:18px;background:url("../images/blt_alert.png") no-repeat;background-size:21px 18px;vertical-align:-2px;margin-right:3px}
 .color_3 .content strong{color:#d61c1c}
