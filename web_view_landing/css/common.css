@@ -15,19 +15,7 @@ i{font-style:normal}
 .content li{position:relative;padding-left:19px}
 .content li i{position:absolute;left:0;color:#a1c801;font-weight:bold}
 .add_alert .header h1 i .icon{background-image:url("../images/blt_radius_alyac.png")}
-@media (max-width:320px){
-	.header{height:315px}
-    .header,.header img{max-width:320px}
-}
-@media (min-width:400px){
-	.header{height:357px}
-    .header,.header img,.content{max-width:400px}
-    .header h1{font-size:25px}
-	.header h1 strong{font-size:35px;padding-top:16px}
-	.content{font-size:17px;line-height:27px}
-	.color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:380px;border:1px solid red}
 
-}
 /* color set */
 .color_a_1,.color_a_1 .content{background:#A1C801}
 .color_a_1 .header h1,.color_a_1 .content li i,.color_a_1 .content strong{color:#1a2309}
@@ -43,7 +31,6 @@ i{font-style:normal}
 .color_a_5 .header h1,.color_b_3 .header h1,.add_alert .header h1{padding-top:80px}
 .color_a_5 .header img,.color_b_3 .header img,.add_alert .header img{max-width:310px;bottom:10px}
 .color_a_5 .content,.color_b_3 .content,.add_alert .content{padding-top:10px}
-
 .color_b_1 .header h1,.color_b_1 .content,.color_b_1 .content strong,.color_b_1 .content li i{color:#212020}
 .color_b_1 .header h1 strong{color:#a1c801}
 .color_b_2 .header h1,.color_b_2 .header h1 strong,.color_b_2 .content,.color_b_2 .content strong,.color_b_2 .content li i{color:#370908}
@@ -51,7 +38,6 @@ i{font-style:normal}
 .color_b_3 .header h1 strong{color:#f65454}
 .color_b_3 .header h1 i{background:#f65454}
 .color_b_3 .header h1 i .icon{background-image:url("../images/blt_radius_alert_red.png")}
-
 .color_c_1 .wrap{background:#B6D539}
 .color_c_1 .header h1{color:#376822}
 .color_c_2 .wrap{background:#61B7DD}
@@ -64,3 +50,17 @@ i{font-style:normal}
 .color_c_5 .header h1{color:#4d1f1f}
 .color_c_5 .header h1 .icon{display:inline-block;width:21px;height:18px;background:url("../images/blt_alert.png") no-repeat;background-size:21px 18px;vertical-align:-2px;margin-right:3px}
 .color_c_5 .content strong{color:#d61c1c}
+.color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:314px}
+@media (max-width:320px){
+	.header{height:315px}
+    .header,.header img{max-width:320px}
+    .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:274px}
+}
+@media (min-width:400px){
+	.header{height:357px}
+    .header,.header img,.content{max-width:400px}
+    .header h1{font-size:25px}
+	.header h1 strong{font-size:35px;padding-top:16px}
+	.content{font-size:17px;line-height:27px}
+	.color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:354px}
+}
