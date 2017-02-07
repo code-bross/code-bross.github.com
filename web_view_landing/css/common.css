@@ -27,6 +27,7 @@ i{font-style:normal}
 .color_a_4,.color_a_4 .content{background:#FBE601}
 .color_a_4 .header h1,.color_a_4 .header h1 strong,.color_a_4 .content strong{color:#370908}
 .color_a_5,.color_b_3,.add_alert{padding-top:30px}
+.color_a_5 .header,.color_b_3 .header,.add_alert .header{height:330px}
 .color_a_5,.color_a_5 .content{background:#FD6868}
 .color_a_5 .header h1,.color_a_5 .content strong{color:#2b0000}
 .color_a_5 .header h1,.color_b_3 .header h1,.add_alert .header h1{padding-top:80px}
@@ -51,7 +52,7 @@ i{font-style:normal}
 .color_c_5 .header h1{color:#4d1f1f}
 .color_c_5 .header h1 .icon{display:inline-block;width:21px;height:18px;background:url("../images/blt_alert.png") no-repeat;background-size:21px 18px;vertical-align:-2px;margin-right:3px}
 .color_c_5 .content strong{color:#d61c1c}
-.color_a_1 .header,.color_a_2 .header,.color_a_3 .header,.color_a_4 .header,.color_a_5 .header,.color_b_1 .header,.color_b_2 .header,.color_b_3 .header{height:347px}
+.color_a_1 .header,.color_a_2 .header,.color_a_3 .header,.color_a_4 .header,.color_b_1 .header,.color_b_2 .header{height:347px}
 .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:314px}
 @media (max-width:320px){
 	.header{height:315px}
@@ -59,7 +60,7 @@ i{font-style:normal}
     .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:274px}
 }
 @media (min-width:400px){
-	.header{height:357px}
+	.header{height:357px !important}
     .header,.header img,.content{max-width:400px}
     .header h1{font-size:25px}
 	.header h1 strong{font-size:35px;padding-top:16px}
