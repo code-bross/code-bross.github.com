@@ -1,7 +1,7 @@
 @charset "utf-8";
-html,body{overflow:hidden;overflow-y:auto}
+html,body{overflow:hidden}
 html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,caption,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
-ul,li{list-style:none}
+ul,ol,li{list-style:none}
 i{font-style:normal}
 
 .header{position:relative;height:333px;text-align:center;letter-spacing:-2px;max-width:360px;margin:0 auto}
@@ -15,8 +15,8 @@ i{font-style:normal}
 .content li{position:relative;padding-left:19px}
 .content li i{position:absolute;left:0;color:#a1c801;font-weight:bold}
 .add_alert .header h1 i .icon{background-image:url("../images/blt_radius_alyac.png")}
-
 @media (max-width:320px){
+	body{overflow-y:scroll}
 	.header{height:315px}
     .header,.header img{max-width:320px}
 }
