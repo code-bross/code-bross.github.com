@@ -60,7 +60,7 @@ i{font-style:normal}
     .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:274px}
 }
 @media (min-width:400px){
-	.header{height:357px}
+	.header,.color_a_1 .header,.color_a_2 .header,.color_a_3 .header,.color_a_4 .header,.color_b_1 .header,.color_b_2 .header{height:357px}
 	.color_a_5 .header,.color_b_3 .header,.add_alert .header{height:365px}
     .header,.header img,.content{max-width:400px}
     .header h1{font-size:25px}
