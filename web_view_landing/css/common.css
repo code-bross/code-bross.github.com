@@ -17,6 +17,7 @@ i{font-style:normal}
 .add_alert .header h1 i .icon{background-image:url("../images/blt_radius_alyac.png")}
 
 @media (max-width:320px){
+	.header{height:320px}
     .header,.header img{max-width:320px}
 }
 @media (min-width:400px){
