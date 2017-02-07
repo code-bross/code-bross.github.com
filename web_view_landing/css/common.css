@@ -20,7 +20,7 @@ i{font-style:normal}
     .header,.header img{max-width:320px}
 }
 @media (min-width:400px){
-	.header{height:337px}
+	.header{height:357px}
     .header,.header img,.content{max-width:400px}
     .header h1{font-size:25px}
 	.header h1 strong{font-size:35px;padding-top:16px}
