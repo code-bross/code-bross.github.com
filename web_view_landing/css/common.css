@@ -56,6 +56,7 @@ i{font-style:normal}
 .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:314px}
 @media (max-width:320px){
 	.header,.color_a_1 .header,.color_a_2 .header,.color_a_3 .header,.color_a_4 .header,.color_b_1 .header,.color_b_2 .header{height:295px}
+	.add_alert .header{height:330px}
     .header,.header img{max-width:320px}
     .color_a_1 .header img,.color_a_2 .header img,.color_a_3 .header img,.color_a_4 .header img,.color_a_5 .header img,.color_b_1 .header img,.color_b_2 .header img,.color_b_3 .header img{max-width:274px}
 }
