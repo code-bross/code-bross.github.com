@@ -2,7 +2,6 @@
 html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,caption,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
 ul,ol,li{list-style:none}
 i{font-style:normal}
-strong{bordeR:1px solid red;padding-right:10px;}
 .header{position:relative;height:333px;text-align:center;letter-spacing:-2px;max-width:360px;margin:0 auto}
 .header h1{font-weight:normal;font-size:21px;line-height:21px;padding-top:67px}
 .header h1 strong{display:block;font-size:31px;color:#fff;line-height:31px;padding-top:10px}
